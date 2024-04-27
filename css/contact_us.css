@@ -1,0 +1,171 @@
+#logo img{
+	vertical-align:middle;
+	position:static;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+}
+#txt_home:hover{
+	color: #9f9a87;
+	text-decoration: underline;
+}
+#txt_about:hover{
+	color: #9f9a87;
+	text-decoration: underline;
+}
+#txt_contact:hover{
+	color: #9f9a87;
+	text-decoration: underline;
+}
+#txt_products:hover{
+	color: #9f9a87;
+	text-decoration: underline;
+}
+#topbar{
+	position: static;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	border: 10px;
+	vertical-align: middle;
+	display: block;
+}
+#home{
+	padding-left: 30px
+}
+a {
+    text-decoration:none;
+}
+#copyright{
+	font-family: 'Tinos', serif;
+	font-style: normal;
+}
+#footer{ 
+	text-align: center; 
+	font-family: 'Tinos',serif;
+    font-size: 20px;
+}
+#centered{ width: 828px; margin: 0 auto; position: relative; }
+div.clear{ 
+	clear: both; 
+}
+#icons a{ 
+	float: left; 
+	font-family: 'Tinos', serif;
+	font-style: italic;
+	color: #e4ddc1;
+	font-size: 25px;
+	line-height: 50px;
+	width: 25%;
+}
+#icons a img{ 
+	float: left; 
+	width: 50px; 
+}
+#menu_design{ 
+	background: url('../images/topbar.png') no-repeat left top; 
+	padding: 15px 10px 10px 10px; 
+	height: 65px; 
+}
+#header{ 
+	margin-top: 40px; 
+}
+#gototop{ 
+	margin-bottom: 0px; 
+	position: relative;
+	bottom: -10px;
+	width: 7%;
+	transition: all .2s ease-in-out;
+}
+#gototop:hover{ 
+	transform: scale(1.15);
+}
+#admin{
+	position: relative;
+	top: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+#admin a{
+	color: #e4ddc1;
+}
+#admin a:hover{
+	color: #595547;
+	text-decoration: underline;
+}
+hr.broken{
+	width: 100%;
+	border: 1px dashed #e4ddc1;
+}
+#contact_details{ 
+	font-family: 'Tinos', serif;
+    font-size: 25px;
+    text-align: center;
+	font-style: normal;
+	word-wrap: break-word;
+	float: right;
+	right: 50px;
+	display: inline-block;
+}
+#contact_details a{
+	color: #e4ddc1;
+}
+#contact_details a:hover{
+	color: #595547;
+	text-decoration: underline;
+}
+.contact_form textarea{
+	border-width: 1px;
+	border-color: #595547;
+	font-size: 25px;
+	font-family: 'Tinos', serif;
+}
+
+.contact_form td {
+	border-width: 1px;
+	border-color: #595547;
+	margin-top: 30px;
+	font-family: 'Tinos', serif;
+	font-size: 25px;
+}
+.contact_form input[type=text], input[type=email] {
+	border-width: 1px;
+	border-color: #595547;
+	font-family: 'Tinos', serif;
+	font-size: 15px;
+}
+
+.contact_form [type=submit], input[type=reset] {
+    font-size: 25px;
+	font-weight: bold;
+	font-family: 'Tinos', serif;
+	border-width: 1px;
+	border-color: #595547;
+	background-color: #e4ddc1;
+	position: relative;
+	top: 7px;
+}
+.contact_form{
+	position: relative;
+	margin-bottom: -519px;
+	bottom: -18px;
+}
+/* responsive */
+@media screen and (max-width: 887px) {
+	#centered{ width: 100%; }
+	#menu_design{ background: #595549; border: 5px outset #595549; height: auto;  }
+	#icons a{ text-align: center; }
+	#icons a img{ float: none; display: block; margin: 0 auto; }
+	#icons a span{ float: none; display: block; }
+	#contact_form{ float: left; display: inline-block; vertical-align: middle; }
+}
+@media screen and (max-width: 729px) {
+	#layout1{ float: none; margin: 0 auto 40px auto; }
+	#layout2{ float: none; margin: 0 auto; }
+	#border { border:none; }
+}
+@media screen and (max-width: 565px) {
+	#icons a{ line-height: 21px; font-size: 20px; }
+}
